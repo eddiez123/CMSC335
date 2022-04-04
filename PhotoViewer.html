@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <title>PhotoViewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="page">
+        <h1 id="head"><u><strong>Photo Viewer</strong></u></h1>
+        <div id="container">
+            <img src="InitialImage.jpg" id="initial_image">
+        </div>
+
+        <form id="form_input">
+            <fieldset id="loading_data" class="fields"f>
+                <legend><strong>Loading Data</strong></legend>
+                <p>
+                    Photos' Folder:
+                    <input id="folder" class="data_box" type="text" value="umcp/">
+                    Common Name:
+                    <input id="name" class="data_box" type="text" value="college">
+                </p>
+                <p>
+                    Start Photo Number:
+                    <input id="start" class="data_box" type="text" value="2">
+                    End Photo Number:
+                    <input id="end" class="data_box" type="text" value="4">
+                </p>
+                <input id="submit" class="button" type="submit" value="Load Photos">
+            </fieldset>
+        </form>
+            
+        <fieldset id="iterating" class="fields">
+            <legend><strong>Iterating</strong></legend>
+            <button id="previous" class="button">Previous Photo</button>
+            <button id="next" class="button">Next Photo</button>
+            <button id="first" class="button">First Photo</button>
+            <button id="last" class="button">Last Photo</button>
+        </fieldset>
+
+        <fieldset id="slideshows" class="fields">
+            <legend><strong>SlideShows</strong></legend>
+            <button id="normal" class="button">SlideShow</button>
+            <button id="random" class="button">RandomSlideShow</button>
+            <button id="stop" class="button">StopSlideShow</button>
+        </fieldset>
+    
+
+        <form id="form_output">
+            <fieldset id="status" class="fields">
+                <legend><strong>Status</strong></legend>
+                <p>
+                    Photo Being Displayed:
+                    <input type="text" value="InitialImage.jpg" disabled>
+                </p>
+            </fieldset>
+
+        </form>
+
+    </div>
+</body>
