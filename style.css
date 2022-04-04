@@ -1,0 +1,49 @@
+body {
+    width: 45vw;
+    height: auto;
+    background-color: silver;
+    margin: 1vw;
+    border: 1vw groove brown;
+}
+
+#page {
+    margin: 1.2vw;
+    border: 1vw ridge cornsilk;
+    background-color: white;
+    padding: 0vh 1vw;
+}
+
+#head {
+    font-size: 1.5em;
+}
+
+#container {
+    border: 1px solid black;
+    margin: 1.2vw;
+    height: auto;
+}
+
+#container img {
+    height: 100%;
+}
+
+#initial_image {
+    max-width: 100%;
+}
+
+fieldset {
+    font-size: 0.8em;
+    margin-top: 1vh;
+}
+
+fieldset p {
+    margin: 0.3em;
+}
+
+input.data_box {
+    width: 9vw;
+}
+
+.button {
+    box-shadow: 5px 10px;
+}
